@@ -12,6 +12,10 @@ const contarVeces = (sentence, letra) => {
     return contadorVeces;
 }
 
+let sentence = 'Tres tristes tigres tragaban trigo en un trigal';
+let letra = 't';
+console.log(contarVeces(sentence, letra));
+
 //Ejercicio 2
 
 const imprimirSiguientesCincuenta = () => {
