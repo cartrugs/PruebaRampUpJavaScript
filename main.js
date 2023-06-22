@@ -20,10 +20,12 @@ const imprimirSiguientesCincuenta = () => {
     let sigImpar = numUsuario + 1;
 
     while (imparesAcumulados < 50) {
-        if (numUsuario % 2 !==0) {
+        if (sigImpar % 2 !==0) {
             imparesAcumulados++
             console.log(sigImpar)
         }  
         sigImpar++
     }
 };
+
+imprimirSiguientesCincuenta();
