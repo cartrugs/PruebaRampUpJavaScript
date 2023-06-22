@@ -16,7 +16,7 @@ const contarVeces = (sentence, letra) => {
 
 const imprimirSiguientesCincuenta = () => {
     let numUsuario = parseInt(prompt('Ingresa un número:'));
-    let imparesAcumulados = [];
+    let imparesAcumulados = 0;
     let sigImpar = numUsuario + 1;
 
     while (imparesAcumulados < 50) {
